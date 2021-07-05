@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Emmet Crash Course</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+
+    <!-- Class .
+    [.box + tab|enter] 
+    [div.box + tab|enter]  
+    -->
+
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box square whatever"></div>
+
+
+    <!-- ID #
+    [#box + tab|enter] 
+    [div#box + tab|enter]  
+    -->
+
+    <div id="myElement"></div>
+    <div id="id" class="box"></div>
+
+
+
+    <!-- Multiplication
+    [.box*6 + tab|enter] 
+    -->
+
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+
+
+
+    <!-- Add some text content {}
+    [h1{Hello World} + tab|enter] 
+    -->
+
+    <h1>Hello World</h1>
+
+
+    <!-- Get the index
+    [h1{$}*6 + tab|enter] 
+    -->
+
+    <h1>1</h1>
+    <h1>2</h1>
+    <h1>3</h1>
+    <h1>4</h1>
+    <h1>5</h1>
+    <h1>6</h1>
+    
+
+
+
+    <!-- Play with the index in your classes
+    [p.txt-${$}*6 + tab|enter] 
+    -->
+
+    <p class="txt-1">1</p>
+    <p class="txt-2">2</p>
+    <p class="txt-3">3</p>
+    <p class="txt-4">4</p>
+    <p class="txt-5">5</p>
+    <p class="txt-6">6</p>
+
+    
+
+
+
+    <!-- Nested >
+    [.parent>.child + tab|enter] 
+    -->
+
+    <div class="parent">
+      <div class="child"></div>
+    </div>    
+
+
+
+    <!-- Complex Nested example
+    [.container>ul.list>li.item*6 + tab|enter] 
+    -->
+
+    <div class="container">
+      <ul class="list">
+        <li class="item"></li>
+        <li class="item"></li>
+        <li class="item"></li>
+        <li class="item"></li>
+        <li class="item"></li>
+        <li class="item"></li>
+      </ul>
+    </div>
+    
+
+
+
+    <!-- Same level +
+    [.box1+.box2 + tab|enter] 
+    -->
+
+    <div class="box1"></div>
+    <div class="box2"></div>
+
+
+    <!-- Go one level up ^
+    [.container>.child^.container2 + tab|enter] 
+    -->
+
+    <div class="container">
+      <div class="child"></div>
+    </div>
+    <div class="container2"></div>
+    
+
+
+
+
+    <!-- Group things up ()
+    [.container>(ul>li*6)^p + tab|enter] 
+    -->
+
+    <div class="container">
+      <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </div>
+    <p></p>
+
+
+
+
+    <!-- Doctype [! + tab|enter]  -->
+    
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+    </head>
+    <body>
+      
+    </body>
+    </html>
+    
+
+
+    <!-- Every element can be written with [elementName + tab|enter] -->
+
+    <div></div>
+    <p></p>
+    <span></span>
+    <span></span>
+    <span></span>
+
+
+    <!-- Some Elements even come with attributes -->
+
+    <input type="text">
+    <textarea name="" id="" cols="30" rows="10"></textarea>
+    <form action=""></form>
+    <img src="" alt="">
+    <a href=""></a>
+
+    
+  </body>
+</html>
